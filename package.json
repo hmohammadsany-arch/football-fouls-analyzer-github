@@ -1,0 +1,17 @@
+{
+  "name": "football-fouls-analyzer",
+  "version": "3.0.0",
+  "description": "RTL Persian Unified Football Expected Fouls (xF) & Expected Yellow Cards (xYC) Android App",
+  "private": true,
+  "scripts": {
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
